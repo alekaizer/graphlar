@@ -1,0 +1,36 @@
+{
+  "name": "graphlar",
+  "version": "0.0.1",
+  "description": "A chart generator for Skylar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {"start": "node index.js"},
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/alekaizer/graphlar.git"
+  },
+  "keywords": [
+    "chart",
+    "C3",
+    "D3",
+    "Skylar",
+    "graphlar",
+    "graph"
+  ],
+  "author": {
+    "name":"Achille AROUKO aka lekaizer",
+    "email":"me@lekaizer.com",
+    "url":"https://lekaizer.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "c3": "^0.4.11-rc4",
+    "d3": "^3.5.16",
+    "express": "^4.13.4",
+    "uid": "0.0.2",
+    "url-to-screenshot": "^0.6.0"
+  }
+}
